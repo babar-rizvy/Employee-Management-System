@@ -1,0 +1,18 @@
+EMPLOYEE MANAGEMENT SYSTEM - QUICK START
+
+1. Extract the ZIP.
+2. Open a terminal in the extracted employee_management_system folder.
+3. Create/activate a virtual environment:
+   python -m venv venv
+   venv\Scripts\activate
+4. Install packages:
+   pip install -r requirements.txt
+5. Apply migrations:
+   python manage.py migrate
+6. Create admin:
+   python manage.py createsuperuser
+7. Run:
+   python manage.py runserver
+8. Open http://127.0.0.1:8000/api/ and http://127.0.0.1:8000/admin/
+
+See README.md for API samples, query examples, and tests.

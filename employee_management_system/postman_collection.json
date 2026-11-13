@@ -1,0 +1,458 @@
+{
+  "info": {
+    "name": "Employee Management System API",
+    "_postman_id": "d9f0e07c-1f8e-4d6b-a6c3-employee-management",
+    "description": "CRUD examples for the Django REST Framework Employee Management System.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Departments",
+      "item": [
+        {
+          "name": "List",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/api/departments/",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "departments"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Retrieve (replace ID)",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/api/departments/1/",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "departments",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Create - sample placeholder",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{base_url}}/api/departments/",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "departments"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Job Roles",
+      "item": [
+        {
+          "name": "List",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/api/job-roles/",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "job-roles"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Retrieve (replace ID)",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/api/job-roles/1/",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "job-roles",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Create - sample placeholder",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{base_url}}/api/job-roles/",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "job-roles"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Skills",
+      "item": [
+        {
+          "name": "List",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/api/skills/",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "skills"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Retrieve (replace ID)",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/api/skills/1/",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "skills",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Create - sample placeholder",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{base_url}}/api/skills/",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "skills"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Employees",
+      "item": [
+        {
+          "name": "List",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/api/employees/",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "employees"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Retrieve (replace ID)",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/api/employees/1/",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "employees",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Create - sample placeholder",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{base_url}}/api/employees/",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "employees"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Employee Profiles",
+      "item": [
+        {
+          "name": "List",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/api/employee-profiles/",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "employee-profiles"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Retrieve (replace ID)",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/api/employee-profiles/1/",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "employee-profiles",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Create - sample placeholder",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{base_url}}/api/employee-profiles/",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "employee-profiles"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Attendance",
+      "item": [
+        {
+          "name": "List",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/api/attendance/",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "attendance"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Retrieve (replace ID)",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/api/attendance/1/",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "attendance",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Create - sample placeholder",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{base_url}}/api/attendance/",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "attendance"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Leave Requests",
+      "item": [
+        {
+          "name": "List",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/api/leave-requests/",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "leave-requests"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Retrieve (replace ID)",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{base_url}}/api/leave-requests/1/",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "leave-requests",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Create - sample placeholder",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            },
+            "url": {
+              "raw": "{{base_url}}/api/leave-requests/",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "leave-requests"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
